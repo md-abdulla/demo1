@@ -1,0 +1,65 @@
+@media(max-width: 1199px) {
+    .bannerdata {
+        background: #0000009c;
+        color: #fff;
+        position: absolute;
+        top: 66%;
+        left: 40%;
+        padding: 15px;
+        transform: translate(0%, 0%);
+    }
+}
+
+@media(max-width: 991px) {
+    .bannerdata {
+        background: #0000009c;
+        color: #fff;
+        position: absolute;
+        top: 66%;
+        left: 20%;
+        padding: 15px;
+        transform: translate(0%, 0%);
+    }
+}
+
+@media(max-width: 767px) {
+    .bannerdata {
+        background: #0000009c;
+        color: #fff;
+        position: absolute;
+        top: 66%;
+        left: 20%;
+        padding: 15px;
+        transform: translate(0%, 0%);
+    }
+    .card {
+        width: 30rem !important;
+        margin-bottom: 10px !important;
+    }
+}
+
+@media(max-width: 575px) {
+    .bannerdata {
+        background: #0000009c;
+        color: #fff;
+        position: absolute;
+        top: 70%;
+        left: 0%;
+        padding: 15px;
+        transform: translate(0%, 0%);
+    }
+    .bannerdata p {
+        margin: 0;
+    }
+    .container {
+        width: 135%;
+        padding: 0 15px;
+    }
+    .bannerhead h2 {
+        font-size: 10px;
+    }
+    .card {
+        width: 16rem !important;
+        margin-bottom: 10px !important;
+    }
+}
